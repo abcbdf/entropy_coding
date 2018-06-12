@@ -354,3 +354,559 @@ Train Epoch 308, time 120.9, loss 0.08932, lossid 0: 0.08932 lr 0.00001000
 Train Epoch 2, time 285.2, loss 0.57920, lossid 0: 0.57920 lr 0.00100000
 Train Epoch 3, time 289.4, loss 0.49956, lossid 0: 0.49956 lr 0.00100000
 Train Epoch 4, time 145.1, loss 0.43828, lossid 0: 0.43828 lr 0.00100000
+Train Epoch 5, time 203.4, loss 0.39661, lossid 0: 0.39661 lr 0.00100000
+Train Epoch 6, time 121.2, loss 0.36939, lossid 0: 0.36939 lr 0.00100000
+Train Epoch 7, time 121.3, loss 0.34926, lossid 0: 0.34926 lr 0.00100000
+Train Epoch 8, time 161.1, loss 0.33556, lossid 0: 0.33556 lr 0.00100000
+Train Epoch 9, time 268.8, loss 0.32473, lossid 0: 0.32473 lr 0.00100000
+Train Epoch 10, time 251.3, loss 0.31564, lossid 0: 0.31564 lr 0.00100000
+Train Epoch 11, time 249.1, loss 0.30903, lossid 0: 0.30903 lr 0.00100000
+Train Epoch 12, time 249.7, loss 0.30335, lossid 0: 0.30335 lr 0.00100000
+Train Epoch 13, time 281.2, loss 0.29832, lossid 0: 0.29832 lr 0.00100000
+Train Epoch 14, time 218.8, loss 0.29474, lossid 0: 0.29474 lr 0.00100000
+Train Epoch 15, time 255.1, loss 0.29228, lossid 0: 0.29228 lr 0.00010000
+Train Epoch 16, time 248.6, loss 0.29211, lossid 0: 0.29211 lr 0.00010000
+Train Epoch 17, time 279.3, loss 0.29143, lossid 0: 0.29143 lr 0.00010000
+Train Epoch 18, time 120.5, loss 0.29073, lossid 0: 0.29073 lr 0.00010000
+Train Epoch 19, time 118.8, loss 0.29015, lossid 0: 0.29015 lr 0.00010000
+Train Epoch 20, time 118.3, loss 0.29006, lossid 0: 0.29006 lr 0.00001000
+Train Epoch 21, time 118.9, loss 0.29030, lossid 0: 0.29030 lr 0.00001000
+Train Epoch 22, time 119.7, loss 0.29022, lossid 0: 0.29022 lr 0.00001000
+Train Epoch 23, time 118.4, loss 0.29073, lossid 0: 0.29073 lr 0.00001000
+Train Epoch 24, time 119.1, loss 0.28933, lossid 0: 0.28933 lr 0.00001000
+Train Epoch 25, time 118.4, loss 0.29061, lossid 0: 0.29061 lr 0.00001000
+Train Epoch 26, time 118.3, loss 0.29023, lossid 0: 0.29023 lr 0.00001000
+Train Epoch 27, time 119.0, loss 0.29012, lossid 0: 0.29012 lr 0.00001000
+Train Epoch 28, time 119.7, loss 0.28959, lossid 0: 0.28959 lr 0.00001000
+Train Epoch 29, time 118.9, loss 0.28983, lossid 0: 0.28983 lr 0.00001000
+Train Epoch 30, time 119.1, loss 0.29060, lossid 0: 0.29060 lr 0.00001000
+Train Epoch 31, time 117.8, loss 0.28991, lossid 0: 0.28991 lr 0.00001000
+Train Epoch 32, time 119.1, loss 0.28918, lossid 0: 0.28918 lr 0.00001000
+Train Epoch 33, time 125.8, loss 0.28962, lossid 0: 0.28962 lr 0.00001000
+Train Epoch 34, time 119.7, loss 0.28981, lossid 0: 0.28981 lr 0.00001000
+Train Epoch 35, time 119.8, loss 0.28989, lossid 0: 0.28989 lr 0.00001000
+Train Epoch 36, time 118.5, loss 0.28995, lossid 0: 0.28995 lr 0.00001000
+Train Epoch 37, time 119.2, loss 0.28930, lossid 0: 0.28930 lr 0.00001000
+Train Epoch 38, time 119.1, loss 0.28968, lossid 0: 0.28968 lr 0.00001000
+Train Epoch 39, time 119.4, loss 0.28943, lossid 0: 0.28943 lr 0.00001000
+Train Epoch 40, time 117.4, loss 0.28884, lossid 0: 0.28884 lr 0.00001000
+Train Epoch 41, time 116.6, loss 0.28922, lossid 0: 0.28922 lr 0.00001000
+Train Epoch 42, time 118.9, loss 0.28894, lossid 0: 0.28894 lr 0.00001000
+Train Epoch 43, time 119.0, loss 0.28963, lossid 0: 0.28963 lr 0.00001000
+Train Epoch 44, time 119.6, loss 0.28918, lossid 0: 0.28918 lr 0.00001000
+Train Epoch 45, time 120.1, loss 0.28932, lossid 0: 0.28932 lr 0.00001000
+Train Epoch 46, time 121.3, loss 0.28974, lossid 0: 0.28974 lr 0.00001000
+Train Epoch 47, time 119.6, loss 0.28901, lossid 0: 0.28901 lr 0.00001000
+Train Epoch 48, time 120.8, loss 0.28969, lossid 0: 0.28969 lr 0.00001000
+Train Epoch 49, time 119.4, loss 0.28899, lossid 0: 0.28899 lr 0.00001000
+Train Epoch 50, time 121.4, loss 0.28935, lossid 0: 0.28935 lr 0.00001000
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 129.7, loss 0.65287, lossid 0: 0.65287 lr 0.00100000
+Val   Epoch 1, time 5.3, loss 0.61593, lossid 0: 0.61593, Eval L1: 0.45295, Eval L2: 0.21228
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 124.3, loss 0.65706, lossid 0: 0.65706 lr 0.00100000
+Val   Epoch 1, time 5.2, loss 0.62428, lossid 0: 0.62428, Eval L1: 0.45802, Eval L2: 0.21636
+total size: 9770.25
+ratio: 0.977025
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 124.5, loss 0.65837, lossid 0: 0.65837 lr 0.00100000
+Val   Epoch 1, time 5.1, loss 0.62270, lossid 0: 0.62270, Eval L1: 0.45738, Eval L2: 0.21550
+total size: 9738.75
+ratio: 0.973875
+Train Epoch 2, time 120.7, loss 0.57548, lossid 0: 0.57548 lr 0.00100000
+Val   Epoch 2, time 5.0, loss 0.55109, lossid 0: 0.55109, Eval L1: 0.40128, Eval L2: 0.18378
+total size: 9297.75
+ratio: 0.929775
+Train Epoch 3, time 120.5, loss 0.50185, lossid 0: 0.50185 lr 0.00100000
+Val   Epoch 3, time 4.8, loss 0.49629, lossid 0: 0.49629, Eval L1: 0.35582, Eval L2: 0.16183
+total size: 8951.25
+ratio: 0.895125
+Train Epoch 4, time 120.2, loss 0.44648, lossid 0: 0.44648 lr 0.00100000
+Val   Epoch 4, time 5.2, loss 0.45636, lossid 0: 0.45636, Eval L1: 0.32355, Eval L2: 0.14661
+total size: 8715.0
+ratio: 0.8715
+Train Epoch 5, time 122.1, loss 0.40446, lossid 0: 0.40446 lr 0.00100000
+Val   Epoch 5, time 5.0, loss 0.42941, lossid 0: 0.42941, Eval L1: 0.30022, Eval L2: 0.13700
+total size: 8515.5
+ratio: 0.85155
+Train Epoch 6, time 119.2, loss 0.37607, lossid 0: 0.37607 lr 0.00100000
+Val   Epoch 6, time 4.9, loss 0.41080, lossid 0: 0.41080, Eval L1: 0.28417, Eval L2: 0.13055
+total size: 8389.5
+ratio: 0.83895
+Train Epoch 7, time 120.0, loss 0.35514, lossid 0: 0.35514 lr 0.00100000
+Val   Epoch 7, time 4.9, loss 0.39755, lossid 0: 0.39755, Eval L1: 0.27194, Eval L2: 0.12618
+total size: 8295.0
+ratio: 0.8295
+Train Epoch 8, time 119.7, loss 0.33965, lossid 0: 0.33965 lr 0.00100000
+Val   Epoch 8, time 4.9, loss 0.38688, lossid 0: 0.38688, Eval L1: 0.26438, Eval L2: 0.12246
+total size: 8211.0
+ratio: 0.8211
+Train Epoch 9, time 118.9, loss 0.32818, lossid 0: 0.32818 lr 0.00100000
+Val   Epoch 9, time 5.0, loss 0.37854, lossid 0: 0.37854, Eval L1: 0.25611, Eval L2: 0.11983
+total size: 8158.5
+ratio: 0.81585
+Train Epoch 10, time 119.3, loss 0.31798, lossid 0: 0.31798 lr 0.00100000
+Val   Epoch 10, time 4.7, loss 0.37186, lossid 0: 0.37186, Eval L1: 0.25052, Eval L2: 0.11773
+total size: 8100.75
+ratio: 0.810075
+Train Epoch 11, time 119.4, loss 0.31211, lossid 0: 0.31211 lr 0.00100000
+Val   Epoch 11, time 4.9, loss 0.36525, lossid 0: 0.36525, Eval L1: 0.24711, Eval L2: 0.11539
+total size: 8022.0
+ratio: 0.8022
+Train Epoch 12, time 119.4, loss 0.30513, lossid 0: 0.30513 lr 0.00100000
+Val   Epoch 12, time 5.0, loss 0.36061, lossid 0: 0.36061, Eval L1: 0.24317, Eval L2: 0.11400
+total size: 7974.75
+ratio: 0.797475
+Train Epoch 13, time 120.1, loss 0.30025, lossid 0: 0.30025 lr 0.00100000
+Val   Epoch 13, time 5.4, loss 0.35667, lossid 0: 0.35667, Eval L1: 0.24023, Eval L2: 0.11268
+total size: 7943.25
+ratio: 0.794325
+Train Epoch 14, time 119.8, loss 0.29538, lossid 0: 0.29538 lr 0.00100000
+Val   Epoch 14, time 4.9, loss 0.35304, lossid 0: 0.35304, Eval L1: 0.23777, Eval L2: 0.11156
+total size: 7896.0
+ratio: 0.7896
+Train Epoch 15, time 120.4, loss 0.29298, lossid 0: 0.29298 lr 0.00010000
+Val   Epoch 15, time 4.8, loss 0.35234, lossid 0: 0.35234, Eval L1: 0.23646, Eval L2: 0.11142
+total size: 7896.0
+ratio: 0.7896
+Train Epoch 16, time 119.9, loss 0.29307, lossid 0: 0.29307 lr 0.00010000
+Val   Epoch 16, time 4.9, loss 0.35208, lossid 0: 0.35208, Eval L1: 0.23629, Eval L2: 0.11134
+total size: 7890.75
+ratio: 0.789075
+Train Epoch 17, time 121.2, loss 0.29197, lossid 0: 0.29197 lr 0.00010000
+Val   Epoch 17, time 5.0, loss 0.35179, lossid 0: 0.35179, Eval L1: 0.23546, Eval L2: 0.11124
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 18, time 120.8, loss 0.29197, lossid 0: 0.29197 lr 0.00010000
+Val   Epoch 18, time 4.8, loss 0.35143, lossid 0: 0.35143, Eval L1: 0.23600, Eval L2: 0.11113
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 19, time 119.8, loss 0.29204, lossid 0: 0.29204 lr 0.00010000
+Val   Epoch 19, time 5.0, loss 0.35111, lossid 0: 0.35111, Eval L1: 0.23600, Eval L2: 0.11100
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 20, time 120.1, loss 0.29060, lossid 0: 0.29060 lr 0.00001000
+Val   Epoch 20, time 4.9, loss 0.35104, lossid 0: 0.35104, Eval L1: 0.23575, Eval L2: 0.11097
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 21, time 120.7, loss 0.29102, lossid 0: 0.29102 lr 0.00001000
+Val   Epoch 21, time 5.1, loss 0.35104, lossid 0: 0.35104, Eval L1: 0.23530, Eval L2: 0.11099
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 22, time 119.7, loss 0.28992, lossid 0: 0.28992 lr 0.00001000
+Val   Epoch 22, time 5.0, loss 0.35101, lossid 0: 0.35101, Eval L1: 0.23531, Eval L2: 0.11098
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 23, time 119.0, loss 0.29015, lossid 0: 0.29015 lr 0.00001000
+Val   Epoch 23, time 4.9, loss 0.35097, lossid 0: 0.35097, Eval L1: 0.23533, Eval L2: 0.11096
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 24, time 120.5, loss 0.29020, lossid 0: 0.29020 lr 0.00001000
+Val   Epoch 24, time 5.1, loss 0.35091, lossid 0: 0.35091, Eval L1: 0.23538, Eval L2: 0.11095
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 25, time 122.9, loss 0.29111, lossid 0: 0.29111 lr 0.00001000
+Val   Epoch 25, time 4.9, loss 0.35088, lossid 0: 0.35088, Eval L1: 0.23530, Eval L2: 0.11094
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 26, time 120.4, loss 0.29209, lossid 0: 0.29209 lr 0.00001000
+Val   Epoch 26, time 4.9, loss 0.35086, lossid 0: 0.35086, Eval L1: 0.23519, Eval L2: 0.11094
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 27, time 121.7, loss 0.29116, lossid 0: 0.29116 lr 0.00001000
+Val   Epoch 27, time 5.0, loss 0.35081, lossid 0: 0.35081, Eval L1: 0.23528, Eval L2: 0.11091
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 28, time 117.9, loss 0.29046, lossid 0: 0.29046 lr 0.00001000
+Val   Epoch 28, time 5.0, loss 0.35077, lossid 0: 0.35077, Eval L1: 0.23518, Eval L2: 0.11090
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 29, time 119.7, loss 0.29178, lossid 0: 0.29178 lr 0.00001000
+Val   Epoch 29, time 4.8, loss 0.35074, lossid 0: 0.35074, Eval L1: 0.23513, Eval L2: 0.11089
+total size: 7885.5
+ratio: 0.78855
+Train Epoch 30, time 119.0, loss 0.29169, lossid 0: 0.29169 lr 0.00001000
+Val   Epoch 30, time 4.9, loss 0.35068, lossid 0: 0.35068, Eval L1: 0.23515, Eval L2: 0.11087
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 31, time 120.3, loss 0.29019, lossid 0: 0.29019 lr 0.00001000
+Val   Epoch 31, time 5.0, loss 0.35064, lossid 0: 0.35064, Eval L1: 0.23510, Eval L2: 0.11086
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 32, time 119.9, loss 0.29097, lossid 0: 0.29097 lr 0.00001000
+Val   Epoch 32, time 4.9, loss 0.35062, lossid 0: 0.35062, Eval L1: 0.23497, Eval L2: 0.11086
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 33, time 122.5, loss 0.29102, lossid 0: 0.29102 lr 0.00001000
+Val   Epoch 33, time 5.0, loss 0.35057, lossid 0: 0.35057, Eval L1: 0.23501, Eval L2: 0.11084
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 34, time 119.0, loss 0.29122, lossid 0: 0.29122 lr 0.00001000
+Val   Epoch 34, time 4.9, loss 0.35053, lossid 0: 0.35053, Eval L1: 0.23496, Eval L2: 0.11083
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 35, time 119.0, loss 0.29140, lossid 0: 0.29140 lr 0.00001000
+Val   Epoch 35, time 4.8, loss 0.35048, lossid 0: 0.35048, Eval L1: 0.23497, Eval L2: 0.11081
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 36, time 116.2, loss 0.29069, lossid 0: 0.29069 lr 0.00001000
+Val   Epoch 36, time 4.8, loss 0.35043, lossid 0: 0.35043, Eval L1: 0.23497, Eval L2: 0.11079
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 37, time 117.4, loss 0.29043, lossid 0: 0.29043 lr 0.00001000
+Val   Epoch 37, time 4.9, loss 0.35041, lossid 0: 0.35041, Eval L1: 0.23488, Eval L2: 0.11079
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 38, time 119.0, loss 0.29005, lossid 0: 0.29005 lr 0.00001000
+Val   Epoch 38, time 4.9, loss 0.35037, lossid 0: 0.35037, Eval L1: 0.23483, Eval L2: 0.11078
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 39, time 119.7, loss 0.29042, lossid 0: 0.29042 lr 0.00001000
+Val   Epoch 39, time 4.8, loss 0.35033, lossid 0: 0.35033, Eval L1: 0.23480, Eval L2: 0.11076
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 40, time 118.7, loss 0.29062, lossid 0: 0.29062 lr 0.00001000
+Val   Epoch 40, time 4.9, loss 0.35030, lossid 0: 0.35030, Eval L1: 0.23475, Eval L2: 0.11076
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 41, time 119.1, loss 0.29118, lossid 0: 0.29118 lr 0.00001000
+Val   Epoch 41, time 4.9, loss 0.35024, lossid 0: 0.35024, Eval L1: 0.23482, Eval L2: 0.11073
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 42, time 119.3, loss 0.29075, lossid 0: 0.29075 lr 0.00001000
+Val   Epoch 42, time 4.9, loss 0.35021, lossid 0: 0.35021, Eval L1: 0.23473, Eval L2: 0.11072
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 43, time 119.4, loss 0.29046, lossid 0: 0.29046 lr 0.00001000
+Val   Epoch 43, time 4.9, loss 0.35016, lossid 0: 0.35016, Eval L1: 0.23475, Eval L2: 0.11071
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 44, time 120.3, loss 0.29026, lossid 0: 0.29026 lr 0.00001000
+Val   Epoch 44, time 4.8, loss 0.35011, lossid 0: 0.35011, Eval L1: 0.23460, Eval L2: 0.11069
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 45, time 118.3, loss 0.29065, lossid 0: 0.29065 lr 0.00001000
+Val   Epoch 45, time 4.8, loss 0.35006, lossid 0: 0.35006, Eval L1: 0.23461, Eval L2: 0.11067
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 46, time 117.6, loss 0.28991, lossid 0: 0.28991 lr 0.00001000
+Val   Epoch 46, time 4.8, loss 0.35003, lossid 0: 0.35003, Eval L1: 0.23460, Eval L2: 0.11067
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 47, time 118.4, loss 0.28905, lossid 0: 0.28905 lr 0.00001000
+Val   Epoch 47, time 4.9, loss 0.34998, lossid 0: 0.34998, Eval L1: 0.23454, Eval L2: 0.11065
+total size: 7880.25
+ratio: 0.788025
+Train Epoch 48, time 227.3, loss 0.29048, lossid 0: 0.29048 lr 0.00001000
+Val   Epoch 48, time 5.0, loss 0.34995, lossid 0: 0.34995, Eval L1: 0.23445, Eval L2: 0.11064
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 49, time 200.9, loss 0.29060, lossid 0: 0.29060 lr 0.00001000
+Val   Epoch 49, time 5.2, loss 0.34991, lossid 0: 0.34991, Eval L1: 0.23439, Eval L2: 0.11063
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 50, time 226.3, loss 0.29011, lossid 0: 0.29011 lr 0.00001000
+Val   Epoch 50, time 4.8, loss 0.34986, lossid 0: 0.34986, Eval L1: 0.23444, Eval L2: 0.11061
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 51, time 119.3, loss 0.28978, lossid 0: 0.28978 lr 0.00001000
+Val   Epoch 51, time 5.0, loss 0.34979, lossid 0: 0.34979, Eval L1: 0.23445, Eval L2: 0.11059
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 52, time 119.9, loss 0.28983, lossid 0: 0.28983 lr 0.00001000
+Val   Epoch 52, time 4.9, loss 0.34977, lossid 0: 0.34977, Eval L1: 0.23431, Eval L2: 0.11059
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 53, time 120.2, loss 0.28974, lossid 0: 0.28974 lr 0.00001000
+Val   Epoch 53, time 5.0, loss 0.34974, lossid 0: 0.34974, Eval L1: 0.23424, Eval L2: 0.11059
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 54, time 119.9, loss 0.28867, lossid 0: 0.28867 lr 0.00001000
+Val   Epoch 54, time 5.2, loss 0.34967, lossid 0: 0.34967, Eval L1: 0.23428, Eval L2: 0.11055
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 55, time 119.4, loss 0.29052, lossid 0: 0.29052 lr 0.00001000
+Val   Epoch 55, time 4.9, loss 0.34964, lossid 0: 0.34964, Eval L1: 0.23421, Eval L2: 0.11055
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 56, time 118.9, loss 0.28929, lossid 0: 0.28929 lr 0.00001000
+Val   Epoch 56, time 4.9, loss 0.34959, lossid 0: 0.34959, Eval L1: 0.23424, Eval L2: 0.11052
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 57, time 119.8, loss 0.28955, lossid 0: 0.28955 lr 0.00001000
+Val   Epoch 57, time 5.0, loss 0.34954, lossid 0: 0.34954, Eval L1: 0.23416, Eval L2: 0.11051
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 58, time 119.4, loss 0.28915, lossid 0: 0.28915 lr 0.00001000
+Val   Epoch 58, time 5.0, loss 0.34950, lossid 0: 0.34950, Eval L1: 0.23411, Eval L2: 0.11050
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 59, time 118.5, loss 0.29016, lossid 0: 0.29016 lr 0.00001000
+Val   Epoch 59, time 4.9, loss 0.34946, lossid 0: 0.34946, Eval L1: 0.23402, Eval L2: 0.11049
+total size: 7869.75
+ratio: 0.786975
+Train Epoch 60, time 119.4, loss 0.28887, lossid 0: 0.28887 lr 0.00001000
+Val   Epoch 60, time 4.9, loss 0.34940, lossid 0: 0.34940, Eval L1: 0.23403, Eval L2: 0.11047
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 61, time 118.4, loss 0.29039, lossid 0: 0.29039 lr 0.00001000
+Val   Epoch 61, time 5.1, loss 0.34937, lossid 0: 0.34937, Eval L1: 0.23404, Eval L2: 0.11046
+total size: 7869.75
+ratio: 0.786975
+Train Epoch 62, time 119.2, loss 0.28911, lossid 0: 0.28911 lr 0.00001000
+Val   Epoch 62, time 5.0, loss 0.34932, lossid 0: 0.34932, Eval L1: 0.23399, Eval L2: 0.11044
+total size: 7875.0
+ratio: 0.7875
+Train Epoch 63, time 119.6, loss 0.28830, lossid 0: 0.28830 lr 0.00001000
+Val   Epoch 63, time 4.8, loss 0.34927, lossid 0: 0.34927, Eval L1: 0.23398, Eval L2: 0.11042
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 64, time 118.8, loss 0.28952, lossid 0: 0.28952 lr 0.00001000
+Val   Epoch 64, time 4.9, loss 0.34924, lossid 0: 0.34924, Eval L1: 0.23386, Eval L2: 0.11042
+total size: 7869.75
+ratio: 0.786975
+Train Epoch 65, time 119.4, loss 0.28928, lossid 0: 0.28928 lr 0.00001000
+Val   Epoch 65, time 5.0, loss 0.34918, lossid 0: 0.34918, Eval L1: 0.23394, Eval L2: 0.11040
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 66, time 119.7, loss 0.28984, lossid 0: 0.28984 lr 0.00001000
+Val   Epoch 66, time 4.9, loss 0.34913, lossid 0: 0.34913, Eval L1: 0.23379, Eval L2: 0.11038
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 67, time 119.9, loss 0.28821, lossid 0: 0.28821 lr 0.00001000
+Val   Epoch 67, time 4.9, loss 0.34909, lossid 0: 0.34909, Eval L1: 0.23377, Eval L2: 0.11037
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 68, time 121.1, loss 0.28871, lossid 0: 0.28871 lr 0.00001000
+Val   Epoch 68, time 4.8, loss 0.34903, lossid 0: 0.34903, Eval L1: 0.23378, Eval L2: 0.11035
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 69, time 119.1, loss 0.28891, lossid 0: 0.28891 lr 0.00001000
+Val   Epoch 69, time 4.9, loss 0.34899, lossid 0: 0.34899, Eval L1: 0.23373, Eval L2: 0.11034
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 70, time 119.3, loss 0.28802, lossid 0: 0.28802 lr 0.00001000
+Val   Epoch 70, time 4.8, loss 0.34897, lossid 0: 0.34897, Eval L1: 0.23364, Eval L2: 0.11033
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 71, time 116.2, loss 0.28791, lossid 0: 0.28791 lr 0.00001000
+Val   Epoch 71, time 4.8, loss 0.34890, lossid 0: 0.34890, Eval L1: 0.23362, Eval L2: 0.11031
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 72, time 118.2, loss 0.28867, lossid 0: 0.28867 lr 0.00001000
+Val   Epoch 72, time 4.9, loss 0.34884, lossid 0: 0.34884, Eval L1: 0.23363, Eval L2: 0.11028
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 73, time 119.3, loss 0.29025, lossid 0: 0.29025 lr 0.00001000
+Val   Epoch 73, time 5.0, loss 0.34883, lossid 0: 0.34883, Eval L1: 0.23353, Eval L2: 0.11029
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 74, time 119.9, loss 0.28919, lossid 0: 0.28919 lr 0.00001000
+Val   Epoch 74, time 5.0, loss 0.34877, lossid 0: 0.34877, Eval L1: 0.23349, Eval L2: 0.11027
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 75, time 119.6, loss 0.28790, lossid 0: 0.28790 lr 0.00001000
+Val   Epoch 75, time 4.9, loss 0.34870, lossid 0: 0.34870, Eval L1: 0.23353, Eval L2: 0.11024
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 76, time 118.1, loss 0.28918, lossid 0: 0.28918 lr 0.00001000
+Val   Epoch 76, time 4.7, loss 0.34867, lossid 0: 0.34867, Eval L1: 0.23339, Eval L2: 0.11024
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 77, time 119.0, loss 0.28848, lossid 0: 0.28848 lr 0.00001000
+Val   Epoch 77, time 5.1, loss 0.34862, lossid 0: 0.34862, Eval L1: 0.23340, Eval L2: 0.11022
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 78, time 119.3, loss 0.28805, lossid 0: 0.28805 lr 0.00001000
+Val   Epoch 78, time 5.0, loss 0.34859, lossid 0: 0.34859, Eval L1: 0.23331, Eval L2: 0.11021
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 79, time 119.6, loss 0.28787, lossid 0: 0.28787 lr 0.00001000
+Val   Epoch 79, time 4.8, loss 0.34853, lossid 0: 0.34853, Eval L1: 0.23331, Eval L2: 0.11019
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 80, time 119.5, loss 0.28815, lossid 0: 0.28815 lr 0.00001000
+Val   Epoch 80, time 4.9, loss 0.34848, lossid 0: 0.34848, Eval L1: 0.23325, Eval L2: 0.11018
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 81, time 118.1, loss 0.28795, lossid 0: 0.28795 lr 0.00001000
+Val   Epoch 81, time 4.8, loss 0.34844, lossid 0: 0.34844, Eval L1: 0.23327, Eval L2: 0.11016
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 82, time 119.3, loss 0.28836, lossid 0: 0.28836 lr 0.00001000
+Val   Epoch 82, time 5.0, loss 0.34841, lossid 0: 0.34841, Eval L1: 0.23314, Eval L2: 0.11016
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 83, time 120.1, loss 0.28777, lossid 0: 0.28777 lr 0.00001000
+Val   Epoch 83, time 5.0, loss 0.34834, lossid 0: 0.34834, Eval L1: 0.23317, Eval L2: 0.11013
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 84, time 119.4, loss 0.28755, lossid 0: 0.28755 lr 0.00001000
+Val   Epoch 84, time 5.1, loss 0.34830, lossid 0: 0.34830, Eval L1: 0.23311, Eval L2: 0.11012
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 85, time 119.0, loss 0.28857, lossid 0: 0.28857 lr 0.00001000
+Val   Epoch 85, time 4.9, loss 0.34826, lossid 0: 0.34826, Eval L1: 0.23306, Eval L2: 0.11011
+total size: 7864.5
+ratio: 0.78645
+Train Epoch 86, time 118.9, loss 0.28827, lossid 0: 0.28827 lr 0.00001000
+Val   Epoch 86, time 5.1, loss 0.34820, lossid 0: 0.34820, Eval L1: 0.23306, Eval L2: 0.11009
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 87, time 120.1, loss 0.28788, lossid 0: 0.28788 lr 0.00001000
+Val   Epoch 87, time 4.9, loss 0.34815, lossid 0: 0.34815, Eval L1: 0.23300, Eval L2: 0.11007
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 88, time 118.5, loss 0.28656, lossid 0: 0.28656 lr 0.00001000
+Val   Epoch 88, time 4.9, loss 0.34811, lossid 0: 0.34811, Eval L1: 0.23290, Eval L2: 0.11007
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 89, time 118.1, loss 0.28867, lossid 0: 0.28867 lr 0.00001000
+Val   Epoch 89, time 4.9, loss 0.34807, lossid 0: 0.34807, Eval L1: 0.23290, Eval L2: 0.11005
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 90, time 120.5, loss 0.28766, lossid 0: 0.28766 lr 0.00001000
+Val   Epoch 90, time 5.0, loss 0.34802, lossid 0: 0.34802, Eval L1: 0.23289, Eval L2: 0.11003
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 91, time 120.5, loss 0.28775, lossid 0: 0.28775 lr 0.00001000
+Val   Epoch 91, time 5.0, loss 0.34798, lossid 0: 0.34798, Eval L1: 0.23280, Eval L2: 0.11003
+total size: 7854.0
+ratio: 0.7854
+Train Epoch 92, time 119.8, loss 0.28742, lossid 0: 0.28742 lr 0.00001000
+Val   Epoch 92, time 4.9, loss 0.34792, lossid 0: 0.34792, Eval L1: 0.23278, Eval L2: 0.11000
+total size: 7859.25
+ratio: 0.785925
+Train Epoch 93, time 118.9, loss 0.28830, lossid 0: 0.28830 lr 0.00001000
+Val   Epoch 93, time 4.9, loss 0.34788, lossid 0: 0.34788, Eval L1: 0.23272, Eval L2: 0.10999
+total size: 7854.0
+ratio: 0.7854
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 206.8, loss 0.65322, lossid 0: 0.65322 lr 0.00100000
+Val   Epoch 1, time 5.8, loss 0.62852, lossid 0: 0.62852, Eval L1: 0.44697, Eval L2: 0.21928
+total size: 40677.0
+ratio: 1.016925
+Train Epoch 2, time 193.5, loss 0.60613, lossid 0: 0.60613 lr 0.00100000
+Val   Epoch 2, time 5.3, loss 0.60083, lossid 0: 0.60083, Eval L1: 0.42726, Eval L2: 0.20713
+total size: 40057.5
+ratio: 1.0014375
+Train Epoch 3, time 189.3, loss 0.58032, lossid 0: 0.58032 lr 0.00100000
+Val   Epoch 3, time 5.0, loss 0.58115, lossid 0: 0.58115, Eval L1: 0.41436, Eval L2: 0.19904
+total size: 39338.25
+ratio: 0.98345625
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0', loadw='', loss='entropy_im_naive', lr=None, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 210.1, loss 0.63753, lossid 0: 0.63753 lr 0.00100000
+Val   Epoch 1, time 5.4, loss 0.61219, lossid 0: 0.61219, Eval L1: 0.42896, Eval L2: 0.21267
+total size: 40855.5
+ratio: 1.0213875
+Train Epoch 2, time 197.7, loss 0.58047, lossid 0: 0.58047 lr 0.00100000
+Val   Epoch 2, time 5.3, loss 0.57163, lossid 0: 0.57163, Eval L1: 0.40023, Eval L2: 0.19596
+total size: 39490.5
+ratio: 0.9872625
+Train Epoch 3, time 200.1, loss 0.54285, lossid 0: 0.54285 lr 0.00100000
+Val   Epoch 3, time 5.1, loss 0.54746, lossid 0: 0.54746, Eval L1: 0.38197, Eval L2: 0.18667
+total size: 38676.75
+ratio: 0.96691875
+Train Epoch 4, time 199.5, loss 0.51519, lossid 0: 0.51519 lr 0.00100000
+Val   Epoch 4, time 5.2, loss 0.53176, lossid 0: 0.53176, Eval L1: 0.37080, Eval L2: 0.18056
+total size: 38283.0
+ratio: 0.957075
+Train Epoch 5, time 199.4, loss 0.49477, lossid 0: 0.49477 lr 0.00100000
+Val   Epoch 5, time 5.2, loss 0.51987, lossid 0: 0.51987, Eval L1: 0.35989, Eval L2: 0.17615
+total size: 37973.25
+ratio: 0.94933125
+Train Epoch 6, time 199.6, loss 0.48013, lossid 0: 0.48013 lr 0.00100000
+Val   Epoch 6, time 5.1, loss 0.51210, lossid 0: 0.51210, Eval L1: 0.35412, Eval L2: 0.17329
+total size: 37779.0
+ratio: 0.944475
+Train Epoch 7, time 198.0, loss 0.46941, lossid 0: 0.46941 lr 0.00100000
+Val   Epoch 7, time 5.3, loss 0.50819, lossid 0: 0.50819, Eval L1: 0.34857, Eval L2: 0.17204
+total size: 37742.25
+ratio: 0.94355625
+Train Epoch 8, time 198.2, loss 0.46364, lossid 0: 0.46364 lr 0.00100000
+Val   Epoch 8, time 5.2, loss 0.50294, lossid 0: 0.50294, Eval L1: 0.34913, Eval L2: 0.16990
+total size: 37542.75
+ratio: 0.93856875
+Train Epoch 9, time 198.1, loss 0.45708, lossid 0: 0.45708 lr 0.00100000
+Val   Epoch 9, time 5.1, loss 0.50081, lossid 0: 0.50081, Eval L1: 0.34427, Eval L2: 0.16920
+total size: 37527.0
+ratio: 0.938175
+Train Epoch 10, time 197.6, loss 0.45463, lossid 0: 0.45463 lr 0.00100000
+Val   Epoch 10, time 5.2, loss 0.49774, lossid 0: 0.49774, Eval L1: 0.34309, Eval L2: 0.16815
+total size: 37437.75
+ratio: 0.93594375
+Train Epoch 11, time 197.4, loss 0.44978, lossid 0: 0.44978 lr 0.00100000
+Val   Epoch 11, time 5.2, loss 0.49522, lossid 0: 0.49522, Eval L1: 0.33795, Eval L2: 0.16736
+total size: 37395.75
+ratio: 0.93489375
+Train Epoch 12, time 198.5, loss 0.44809, lossid 0: 0.44809 lr 0.00100000
+Val   Epoch 12, time 5.3, loss 0.49385, lossid 0: 0.49385, Eval L1: 0.34017, Eval L2: 0.16677
+total size: 37301.25
+ratio: 0.93253125
+Train Epoch 13, time 197.9, loss 0.44480, lossid 0: 0.44480 lr 0.00100000
+Val   Epoch 13, time 5.2, loss 0.49170, lossid 0: 0.49170, Eval L1: 0.33483, Eval L2: 0.16609
+total size: 37269.75
+ratio: 0.93174375
+Train Epoch 14, time 197.4, loss 0.44231, lossid 0: 0.44231 lr 0.00100000
+Val   Epoch 14, time 5.1, loss 0.49134, lossid 0: 0.49134, Eval L1: 0.33392, Eval L2: 0.16599
+total size: 37296.0
+ratio: 0.9324
+Train Epoch 15, time 198.1, loss 0.44046, lossid 0: 0.44046 lr 0.00010000
+Val   Epoch 15, time 5.2, loss 0.48917, lossid 0: 0.48917, Eval L1: 0.33413, Eval L2: 0.16511
+total size: 37180.5
+ratio: 0.9295125
+Train Epoch 16, time 199.8, loss 0.43890, lossid 0: 0.43890 lr 0.00010000
+Val   Epoch 16, time 5.2, loss 0.48887, lossid 0: 0.48887, Eval L1: 0.33422, Eval L2: 0.16499
+total size: 37170.0
+ratio: 0.92925
+Train Epoch 17, time 197.2, loss 0.43927, lossid 0: 0.43927 lr 0.00010000
+Val   Epoch 17, time 5.2, loss 0.48867, lossid 0: 0.48867, Eval L1: 0.33494, Eval L2: 0.16490
+total size: 37164.75
+ratio: 0.92911875
+Train Epoch 18, time 199.0, loss 0.43948, lossid 0: 0.43948 lr 0.00010000
+Val   Epoch 18, time 5.1, loss 0.48864, lossid 0: 0.48864, Eval L1: 0.33377, Eval L2: 0.16493
+total size: 37164.75
+ratio: 0.92911875
+Train Epoch 19, time 199.4, loss 0.43843, lossid 0: 0.43843 lr 0.00010000
+Val   Epoch 19, time 5.1, loss 0.48843, lossid 0: 0.48843, Eval L1: 0.33393, Eval L2: 0.16484
+total size: 37164.75
+ratio: 0.92911875
+Train Epoch 20, time 197.8, loss 0.43869, lossid 0: 0.43869 lr 0.00001000
+Val   Epoch 20, time 5.2, loss 0.48836, lossid 0: 0.48836, Eval L1: 0.33422, Eval L2: 0.16480
+total size: 37149.0
+ratio: 0.928725
+Train Epoch 21, time 197.6, loss 0.43943, lossid 0: 0.43943 lr 0.00001000
+Val   Epoch 21, time 5.1, loss 0.48835, lossid 0: 0.48835, Eval L1: 0.33414, Eval L2: 0.16480
+total size: 37154.25
+ratio: 0.92885625
+Train Epoch 22, time 201.2, loss 0.43797, lossid 0: 0.43797 lr 0.00001000
+Val   Epoch 22, time 5.3, loss 0.48834, lossid 0: 0.48834, Eval L1: 0.33413, Eval L2: 0.16479
+total size: 37154.25
+ratio: 0.92885625
+Train Epoch 23, time 198.5, loss 0.43861, lossid 0: 0.43861 lr 0.00001000
+Val   Epoch 23, time 5.4, loss 0.48832, lossid 0: 0.48832, Eval L1: 0.33406, Eval L2: 0.16479
+total size: 37154.25
+ratio: 0.92885625
+Train Epoch 24, time 200.0, loss 0.43830, lossid 0: 0.43830 lr 0.00001000
+Val   Epoch 24, time 5.1, loss 0.48831, lossid 0: 0.48831, Eval L1: 0.33415, Eval L2: 0.16479
+total size: 37154.25
+ratio: 0.92885625
+
+ -------------------------Namespace(batch_size=32, debug=False, epochs=1000, gpu='0,1', loadw='', loss='entropy_im_naive', lr=0.001, model='Model_Entropy', optimizer='adam', resume='', save_dir='', save_freq=5, start_epoch=0, test='', weight_decay=0.001, workers=32)Train Epoch 1, time 689.3, loss 0.61070, lossid 0: 0.61070 lr 0.00100000
+Val   Epoch 1, time 7.7, loss 0.56538, lossid 0: 0.56538, Eval L1: 0.40126, Eval L2: 0.19241
+total size: 9213.75
+ratio: 0.921375
+Train Epoch 2, time 681.1, loss 0.50233, lossid 0: 0.50233 lr 0.00100000
+Val   Epoch 2, time 8.3, loss 0.51969, lossid 0: 0.51969, Eval L1: 0.36198, Eval L2: 0.17511
+total size: 8421.0
+ratio: 0.8421
+Train Epoch 3, time 680.2, loss 0.46468, lossid 0: 0.46468 lr 0.00100000
+Val   Epoch 3, time 8.0, loss 0.50373, lossid 0: 0.50373, Eval L1: 0.34793, Eval L2: 0.16954
+total size: 8148.0
+ratio: 0.8148
+Train Epoch 4, time 697.3, loss 0.44947, lossid 0: 0.44947 lr 0.00100000
+Val   Epoch 4, time 8.2, loss 0.49552, lossid 0: 0.49552, Eval L1: 0.33933, Eval L2: 0.16683
+total size: 8043.0
+ratio: 0.8043

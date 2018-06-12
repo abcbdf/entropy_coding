@@ -17,6 +17,7 @@ import matplotlib.image as mpimg
 
 class Dataset(torch.utils.data.Dataset):
     def __init__(self, file, phase):
+        self.iter = 4
         self.file = get_image_list(file, phase)
         pool = Pool()
         self.datas = pool.map(self.getitem, range(len(self.file)))
@@ -26,7 +27,7 @@ class Dataset(torch.utils.data.Dataset):
         
     def __getitem__(self, id):
         #print(self.datas[id].shape)
-        return self.datas[id][0, 0, :, :, :]
+        return self.datas[int(id / 4)][id % 4, 0, :, :, :]
         # real_id = int(id / 256)
         # logging.debug(self.file[real_id])
         # temp = self.datas[real_id]
@@ -35,7 +36,7 @@ class Dataset(torch.utils.data.Dataset):
         # return temp[:, x : x + 32, y : y + 32]
     
     def __len__(self):
-        return len(self.file)
+        return len(self.file) * self.iter
         
 
     def getitem(self, id):

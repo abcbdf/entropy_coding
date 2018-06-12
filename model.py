@@ -669,9 +669,10 @@ class Model_Entropy(nn.Module):
     def __init__(self):
         super(Model_Entropy, self).__init__()
         self.input_channel = 16
+        self.hidden_channel = self.input_channel * 4
         self.masked_conv = MaskedConv(self.input_channel, self.input_channel)
-        self.lstm = ConvLSTM(self.input_channel, 64, kernel_size = 1, kernel_size_hidden = 1)
-        self.conv = nn.Conv2d(64, self.input_channel, 1)
+        self.lstm = ConvLSTM(self.input_channel, self.hidden_channel, kernel_size = 1, kernel_size_hidden = 1)
+        self.conv = nn.Conv2d(self.hidden_channel, self.input_channel, 1)
     def forward(self, input):
         batch, channel, height, width = input.size()
         new_input = F.pad(input, [3, 3, 3, 3])
